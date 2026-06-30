@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/bg</item>
+        <item name="android:colorPrimaryDark">#354190</item>
+        <item name="android:colorAccent">@color/bg</item>
+        <item name="android:windowBackground">@color/screen_bg</item>
+    </style>
+
+    <!-- 原生 Toolbar 主题覆盖，禁用菜单项 textAllCaps -->
+    <style name="ToolbarOverlay">
+        <item name="android:actionMenuTextAppearance">@style/ToolbarMenuTextStyle</item>
+    </style>
+
+    <style name="ToolbarMenuTextStyle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#DE000000</item>
+    </style>
+</resources>
