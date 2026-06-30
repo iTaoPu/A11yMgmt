@@ -1,12 +1,8 @@
 # 无障碍管理器
 
-<p align="center">
-  <img src="https://img.shields.io/github/downloads/luqijun9/AccessibilityManager/total">
-</p>
-
 本APP可以彻底取代系统设置里的无障碍设置页面。仅需要授权本APP写入安全设置即可使用。支持无障碍保活，不耗电不主动唤醒，且保活速度极快。
 
-**forked from** [**WuDi-ZhanShen/AccessibilityManager**](https://github.com/WuDi-ZhanShen/AccessibilityManager)
+**forked from** [**luqijun9/AccessibilityManager**](https://github.com/luqijun9/AccessibilityManager)
 
 在原项目基础上添加了崩溃检测功能，具体说明如下：
 
